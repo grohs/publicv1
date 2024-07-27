@@ -1,0 +1,53 @@
+# Nmap 7.93 scan initiated Sat Jul 27 13:49:46 2024 as: nmap -iL /tmp/ip_list.txt -oN /tmp/nmap_output.txt
+Nmap scan report for scanme.nmap.org (45.33.32.156)
+Host is up (0.064s latency).
+Other addresses for scanme.nmap.org (not scanned): 2600:3c01::f03c:91ff:fe18:bb2f
+Not shown: 995 closed tcp ports (reset)
+PORT      STATE    SERVICE
+22/tcp    open     ssh
+25/tcp    filtered smtp
+80/tcp    open     http
+9929/tcp  open     nping-echo
+31337/tcp open     Elite
+
+Nmap scan report for example.com (93.184.215.14)
+Host is up (0.0012s latency).
+Other addresses for example.com (not scanned): 2606:2800:21f:cb07:6820:80da:af6b:8b2c
+Not shown: 996 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+80/tcp   open   http
+443/tcp  open   https
+1119/tcp closed bnetgame
+1935/tcp closed rtmp
+
+Nmap scan report for resolver1.opendns.com (208.67.222.222)
+Host is up (0.0013s latency).
+Not shown: 997 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+53/tcp  open  domain
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for dns.opendns.com (208.67.220.220)
+Host is up (0.0013s latency).
+Not shown: 997 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+53/tcp  open  domain
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for dns.google (8.8.8.8)
+Host is up (0.0020s latency).
+Not shown: 998 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+53/tcp  open  domain
+443/tcp open  https
+
+Nmap scan report for dns.google (8.8.4.4)
+Host is up (0.0019s latency).
+Not shown: 998 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+53/tcp  open  domain
+443/tcp open  https
+
+# Nmap done at Sat Jul 27 13:49:57 2024 -- 6 IP addresses (6 hosts up) scanned in 11.24 seconds
